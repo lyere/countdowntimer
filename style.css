@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "LoveLetter";
+    src: url(fonts/Lovelt__.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/room.jpeg);
+    font-family: 'LoveLetter';
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+
+h1 {
+    font-size: 4rem;
+    color: antiquewhite;
+    font-family: 'LoveLetter';
+    font-weight: normal;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center center;
+}
+
+span {
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.days {
+    margin-left: 5rem;
+}
